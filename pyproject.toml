@@ -3,7 +3,8 @@ name = "project-tmp-rep"
 readme = "README.md"
 requires-python = ">=3.8"
 license = { text = "MIT" }
-dependencies = ["lib-tmp-rep @ git+https://github.com/BreadPetya/lib-tmp-rep.git"]
+dependencies = ["project-tmp-rep @ git+https://github.com/BreadPetya/project-tmp-rep.git",
+"lib-tmp-rep @ git+https://github.com/BreadPetya/lib-tmp-rep.git"]
 
 [build-system]
 requires = ["uv>=0.1.0"]
