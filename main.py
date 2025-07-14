@@ -1,6 +1,6 @@
 import setuptools
 
-setuptools.setup(name="")
+setuptools.setup(name="project-tmp-rep")
 
 from project_tmp_rep.project import func_from_project
 
