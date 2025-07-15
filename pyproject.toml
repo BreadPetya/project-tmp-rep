@@ -1,11 +1,17 @@
 [project]
 name = "project-tmp-rep"
+version = "2025.0.0"
 readme = "README.md"
 requires-python = ">=3.8"
 license = { text = "MIT" }
-dependencies = ["project-tmp-rep @ git+https://github.com/BreadPetya/project-tmp-rep.git",
-"lib-tmp-rep @ git+https://github.com/BreadPetya/lib-tmp-rep.git"]
+dependencies = ["lib_tmp_rep"]
 
 [build-system]
-requires = ["uv>=0.1.0"]
-build-backend = "uv.build"
+requires = ["uv_build>=0.7.21,<0.8"]
+build-backend = "uv_build"
+
+# [tool.uv]
+# no-build-isolation-package = ["lib_tmp_rep"]
+
+[tool.uv.sources]
+lib_tmp_rep = { path = "../lib-tmp-rep" }
