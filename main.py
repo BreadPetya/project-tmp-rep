@@ -10,3 +10,7 @@ from lib_tmp_rep.func_lib import func_from_lib
 
 def func_from_project():
     return func_from_lib() + 1
+
+
+if __name__ == "__main__":
+    print(func_from_project())    
