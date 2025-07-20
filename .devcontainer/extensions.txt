@@ -1,0 +1,5 @@
+Расширения, установленные на Codespaces: animated fiesta:
+github.codespaces
+github.github-vscode-theme
+github.vscode-pull-request-github
+ms-ceintl.vscode-language-pack-ru
