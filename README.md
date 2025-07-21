@@ -46,6 +46,10 @@ def func_from_lib():
     return 42  # Пример реализации
 EOL
 ```
+# Установите пакет
+```
+uv pip install -e .
+```
 # Установка пакетов
 ```
 uv pip install .
