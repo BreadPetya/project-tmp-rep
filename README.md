@@ -4,10 +4,6 @@
 pip install uv
 pip install build
 ```
-## Добавьте UV в PATH
-```
-source ~/.cargo/env
-```
 # Использование UV
 ## Создание виртуального окружения
 ```
