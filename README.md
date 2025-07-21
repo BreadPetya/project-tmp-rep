@@ -14,6 +14,11 @@ source ~/.cargo/env
 uv venv .venv
 source .venv/bin/activate
 ```
+# Установка lib-tmp-rep в project-tmp-rep
+```
+cd /workspaces/project-tmp-rep
+uv pip install -e ../lib-tmp-rep
+```
 # Установка пакетов
 ```
 uv pip install .
