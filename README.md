@@ -7,7 +7,7 @@ pip install build
 # Использование UV
 ## Создание виртуального окружения
 ```
-uv venv .venv
+python -m venv .venv
 source .venv/bin/activate
 ```
 # Установка lib-tmp-rep в project-tmp-rep
