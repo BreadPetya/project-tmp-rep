@@ -43,7 +43,7 @@ touch lib_tmp_rep/__init__.py
 ```
 cat > lib_tmp_rep/func_lib.py <<EOL
 def func_from_lib():
-    return 42  # Пример реализации
+    return 1
 EOL
 ```
 # Установите пакет
